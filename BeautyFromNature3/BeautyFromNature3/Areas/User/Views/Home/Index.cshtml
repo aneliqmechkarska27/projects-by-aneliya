@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Начална страница";
+}
+
+@if (!User.IsInRole("Administrator") && !User.IsInRole("User"))
+{
+    <div class="mainLabel">
+        <h1> Намери своя подходящ продукт</h1> @*Welcome*@
+        <h4>
+            Присъедини се към обществото на Beauty from nature
+            и се възползвай от всички онлайн предложения
+        </h4>
+        <a class="btn btn-dark" asp-area="Identity" asp-page="/Account/Register">
+            Присъедини се сега <img src="~/Images/rightArrowIcon.png" alt="send to register page button" width="25" />
+        </a>
+    </div>
+    
+}
+
+else if(!User.IsInRole("Administrator"))
+{
+    <div class="mainLabel">
+        
+        <h4>
+            Вие вече сте част от обществото на Beauty from nature
+            и може да се възползвате от всички онлайн предложения
+        </h4>
+        <a class="btn btn-dark" asp-area="Admin" asp-controller="Products"  asp-action="Index">
+            Нашите продукти <img src="~/Images/rightArrowIcon.png"  width="25" />
+        </a>
+    </div>
+}
+else 
+{
+    <div class="mainLabel">
+
+        <h3>
+            Вижте новите регистрирани потребители
+        </h3>
+        <a class="btn btn-dark" asp-area="Admin" asp-controller="BeautyUsers" asp-action="Index">
+            Потребители <img src="~/Images/rightArrowIcon.png" width="25" />
+        </a>
+    </div>
+}
+
+<script type="text/javascript">
+    document.body.style.background = "url(\"Images/background.jpg\")"
+    document.body.style.backgroundSize = "cover"
+</script>
+
+

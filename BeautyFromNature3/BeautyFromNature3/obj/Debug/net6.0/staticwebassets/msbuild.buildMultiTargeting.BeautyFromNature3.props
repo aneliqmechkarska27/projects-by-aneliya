@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BeautyFromNature3.props" />
+</Project>

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BeautyFromNature3.Domain.Product>
+
+@{
+    ViewData["Title"] = "Продукти";
+}
+
+<h1 class="text-center">ПРОДУКТИ</h1>
+
+@if (User.IsInRole("Administrator"))
+{
+    <p>
+        <a class="btn btn-outline-secondary" asp-action="Create">ДОБАВИ НОВ</a>
+    </p>
+}
+
+<div class="d-flex">
+    
+    <div style="flex: 1;"></div>
+
+    <form class="d-flex" asp-area="Admin" asp-controller="Products" asp-action="Index">
+        <input type="text" name="SearchString" class="form-control" placeholder="Потърси по име..." /> &nbsp;
+        <input type="submit" value="Търси" class="btn btn-primary" /> &nbsp;
+        <a asp-action="Index" class="btn btn-primary">Изчисти</a>
+        
+    </form>
+   
+</div>
+
+
+<div class="card-deck">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            @*Добавяне на снимките*@
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="card my-3" store-card">
+
+                    <a class="a-cleanup"  asp-controller="Products" asp-action="Details" asp-route-id="@item.ProductId">
+                        <img src="~/Images/@item.Image" class="card-img-top card-img-custom" asp-append-version="true" loading="lazy"/>
+                        <div class="card-body text-center" style="height:5em;">
+                            <h5 class="mb-3">@item.Title</h5>
+                        </div>
+                    </a>
+                     
+
+                    @if (User.IsInRole("Administrator"))
+                    {
+                            <a class="btn btn-outline-light" asp-action="Edit" asp-route-id="@item.ProductId"><img src="~/Images/editIcon.jpg" width="25" /></a>
+                            <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.ProductId"> <img src="~/Images/deleteIcon.png" width="25" /></a>
+
+                    }
+
+
+                   
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+

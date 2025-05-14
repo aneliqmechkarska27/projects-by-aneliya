@@ -1,0 +1,8 @@
+﻿@using BeautyFromNature3.Domain;
+@inject SignInManager<BeautyUser> SignInManager
+
+<ul class="nav nav-pills flex-column">
+    <li class="nav-item"><a class="nav-link text-green @ManageNavPages.IndexNavClass(ViewContext)" id="profile" asp-page="./Index">Профил</a></li> @*Profile*@
+    <li class="nav-item"><a class="nav-link text-green @ManageNavPages.ChangePasswordNavClass(ViewContext)" id="change-password" asp-page="./ChangePassword">Промени парола</a></li> @*Password*@
+    <li class="nav-item"><a class="nav-link text-green @ManageNavPages.PersonalDataNavClass(ViewContext)" id="personal-data" asp-page="./PersonalData">Лични данни</a></li> @*Personal data*@
+</ul>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BeautyFromNature3.Domain.ProductCatalog>
+
+@{
+    ViewData["Title"] = "Продукти в каталози";
+}
+
+<h1 class="text-center">ПРОДУКТИ В КАТАЛОЗИ</h1>
+
+<p>
+    <a class="btn btn-outline-secondary backBtn" asp-action="Create">ДОБАВИ НОВ</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Catalog.CatalogName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product.Title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Catalog.CatalogName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Title)
+            </td>
+            <td>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.ProductCatalogId"> <img src="~/Images/deleteIcon.png" width="25" /></a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

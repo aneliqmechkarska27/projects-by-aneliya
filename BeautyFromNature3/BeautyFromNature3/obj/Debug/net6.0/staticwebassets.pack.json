@@ -1,0 +1,205 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\041c1f75-536c-4633-bd5b-a45929b8f43e_1.png",
+      "PackagePath": "staticwebassets\\Images\\041c1f75-536c-4633-bd5b-a45929b8f43e_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\11447f81-34dd-49f3-bdd3-cc66e4a12476_1.png",
+      "PackagePath": "staticwebassets\\Images\\11447f81-34dd-49f3-bdd3-cc66e4a12476_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\135bbcec-dbef-43a9-b22d-139eb2ecd3d1_1.png",
+      "PackagePath": "staticwebassets\\Images\\135bbcec-dbef-43a9-b22d-139eb2ecd3d1_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\48e61101-ed71-4fa7-b69c-caf2428857c7_1.png",
+      "PackagePath": "staticwebassets\\Images\\48e61101-ed71-4fa7-b69c-caf2428857c7_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\4b9d4053-3cc7-46f7-bf7e-8361b810d74d_1.png",
+      "PackagePath": "staticwebassets\\Images\\4b9d4053-3cc7-46f7-bf7e-8361b810d74d_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\953a68ea-eb91-45e1-bcb2-a458464f320e_1.png",
+      "PackagePath": "staticwebassets\\Images\\953a68ea-eb91-45e1-bcb2-a458464f320e_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\9fce1b41-2328-411a-b0f7-f6d5b42ba3fa_1.png",
+      "PackagePath": "staticwebassets\\Images\\9fce1b41-2328-411a-b0f7-f6d5b42ba3fa_1.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\background.jpg",
+      "PackagePath": "staticwebassets\\Images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\Images\\rightArrowIcon.png",
+      "PackagePath": "staticwebassets\\Images\\rightArrowIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ЦветанкаПлачкова\\source\\repos\\BeautyFromNature3\\BeautyFromNature3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BeautyFromNature3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BeautyFromNature3.props",
+      "PackagePath": "build\\BeautyFromNature3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BeautyFromNature3.props",
+      "PackagePath": "buildMultiTargeting\\BeautyFromNature3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BeautyFromNature3.props",
+      "PackagePath": "buildTransitive\\BeautyFromNature3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

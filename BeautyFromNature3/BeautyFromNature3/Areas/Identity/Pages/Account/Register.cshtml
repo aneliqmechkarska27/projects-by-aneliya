@@ -1,0 +1,72 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "РЕГИСТРАЦИЯ";
+}
+<br />
+<h1 class="text-secondary">@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-floating mb-3">
+                <label for="floatingInput">Потребителско име</label>
+                <input asp-for="Input.NickName" class="form-control" id="floatingInput">
+                
+            </div>
+
+            <div class="form-floating">
+                <label for="floatingInput">Име</label>
+                <input asp-for="Input.FirstName" class="form-control" id="floatingInput">
+               
+            </div>
+            <br />
+
+            <div class="form-floating mb-3">
+                <label for="floatingInput">Фамилия</label>
+                <input asp-for="Input.LastName" class="form-control" id="floatingInput">
+                
+            </div>
+
+            <div class="form-floating">
+                <label for="floatingInput">Имейл</label>
+                <input asp-for="Input.Email" class="form-control" id="floatingInput" >
+                
+            </div>
+
+            <br />
+            <div class="form-floating mb-3">
+                <label for="floatingInput">Телефон</label>
+                <input asp-for="Input.PhoneNumber" class="form-control" id="floatingInput">
+                
+            </div>
+
+          
+            <div class="form-floating">
+                <label for="floatingPassword">Парола</label>
+                <input asp-for="Input.Password" class="form-control" id="floatingPassword" >
+                
+            </div>
+            <br />
+
+            <div class="form-floating mb-3">
+                <label for="floatingPassword">Потвърди парола</label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" id="floatingPassword" >
+                
+            </div>
+            <br />
+
+            <div class="log form-group d-flex">
+                <button  type="submit" class="btn btn-primary col-md-4">Регистрация</button><br /><br /> &nbsp; &nbsp;
+                <a  class="btn btn-primary col-md-8" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Имате акаунт? Влезте в профила си</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

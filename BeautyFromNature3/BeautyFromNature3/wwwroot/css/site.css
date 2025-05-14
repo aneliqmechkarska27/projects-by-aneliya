@@ -1,0 +1,273 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.btn-outline-secondary {
+    background-color: lavender;
+    color: gray
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+/*----------*/
+/*MINE CSS CHANGES*/
+
+/*Home page text*/
+.mainLabel {
+    position: relative;
+    height: 100%;
+    padding-top: 30%;
+    text-align: center;
+    color: lightslategray;
+}
+
+/*Contacts*/
+.section-contacts-info .contacts-info {
+    text-align: center;
+}
+
+.section-contacts-info .flex-box {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    margin: 20px 0;
+}
+
+.section-contacts-info .contacts-info .circle {
+    height: 91px;
+    width: 91px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.section-contacts-info .flex-box:nth-child(4n+3) .circle {
+    background-color: #ede8ff;
+}
+
+.section-contacts-info .flex-box:nth-child(4n+2) .circle {
+    background-color: #e2f7ff;
+}
+
+.section-contacts-info .flex-box:nth-child(4n+1) .circle {
+    background-color: #f9f4c7;
+}
+
+.text-center {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text-center p strong {
+     font-size: 18px;
+     letter-spacing: 2px;
+     line-height: 19px;
+     font-family: Casper Bold,sans-serif;
+     color: #222;
+}
+
+.section-contacts-info .contacts-info .sub-content {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.section-contacts-info .contacts-info .description-content {
+    color: #222;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+/*Photo*/
+.a-cleanup {
+    color: inherit;
+}
+
+a.a-cleanup:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-img-custom {
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+}
+
+/*Details product*/
+#grid-cont-details.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -90px;
+}
+
+#grid-item-details.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-row: 1/3;
+}
+
+#image-details {
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#company-details.grid-item {
+    text-align: center;
+    font-size: 20px;
+}
+
+#details-product-name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#details-company {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+#details-description {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*Buttons*/
+.btn-primary {
+    color: white !important;
+    background-color: #3b7a57 !important;
+}
+
+.btn-outline-secondary {
+    background-color: white !important;
+    color: black !important;
+}
+
+.btn-outline-secondary:hover {
+        background-color: #3b7a57 !important;
+        color: white !important;
+}
+
+/*Logo text*/
+.navbar-brand {
+    font-style: italic !important;
+    font-family: 'Bell MT' !important;
+    font-size: x-large !important;
+}
+
+/*navbar buttons text*/
+.text-green:hover {
+    color: #3b7a57 !important;
+    font-weight:bold !important;
+}
+
+/*Manage page-buttons*/
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+ 
+    background-color: #3b7a57 !important;
+}
+
+.nav-link {
+   
+    color: #3b7a57;
+    text-decoration: none !important;
+    
+    
+}
+
+/*List of users*/
+.detailsUser {
+    background-color: #3b7a57 !important;
+    text-align:center !important;
+}
+
+/*Text Area - Description */
+.textarea {
+    height: 300px !important;
+}
+
+
+
+
+
+
+  
+
+

@@ -1,0 +1,94 @@
+﻿@model BeautyFromNature3.Domain.Catalog
+
+@{
+    ViewData["Title"] = "Детайли";
+}
+
+<h1>Детайли на каталога</h1>
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CatalogName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CatalogName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.FullName)
+        </dd>
+
+        <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.EditDate)
+        </dt>
+        <dd class="col-sm-10">
+            @if ((DateTime.Now - Model.EditDate).Days != 0)
+            {
+                <p>@((DateTime.Now - Model.EditDate).Days) дни</p>
+
+            }
+            else if ((DateTime.Now - Model.EditDate).Hours != 0)
+            {
+                <p>@((DateTime.Now - Model.EditDate).Hours) час</p>
+
+            }
+            else if ((DateTime.Now - Model.EditDate).Minutes != 0)
+            {
+                <p>@((DateTime.Now - Model.EditDate).Minutes) мин.</p>
+
+            }
+            else if ((DateTime.Now - Model.EditDate).Seconds != 0)
+            {
+                <p>@((DateTime.Now - Model.EditDate).Seconds) сек.</p>
+
+            }
+            else if ((DateTime.Now - Model.EditDate).Milliseconds != 0)
+            {
+                <p>@((DateTime.Now - Model.EditDate).Milliseconds) мил. сек.</p>
+            }
+        </dd>
+
+        <dt class="col-sm-2">
+            Продукти в този каталог:
+        </dt>
+            <dd class="col-sm-5">
+                <hr class="mb-0" />
+                <div>
+                    <ul class="list-group list-group-flush ">
+                        @if (Model.Products.Count > 0)
+                        {
+
+                            @foreach (var item in Model.Products.Select((value) => (value)))
+                            {
+                                <li class="list-group-item">  <strong>@item.Product.Title</strong></li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item">  <strong>Все още няма продукти в каталога.</li>
+                        }
+                    </ul>
+                </div>
+            </dd>
+       
+
+
+    </dl>
+</div>
+<div>
+    <a  class="btn btn-outline-light" asp-action="Index"><a asp-action="Index"><img src="~/Images/goBackBtn.png" width="25" /></a></a> 
+    <a  class="btn btn-outline-light" asp-action="Edit" asp-route-id="@Model.CatalogId"><img src="~/Images/editIcon.jpg" width="25" /></a>
+
+</div>

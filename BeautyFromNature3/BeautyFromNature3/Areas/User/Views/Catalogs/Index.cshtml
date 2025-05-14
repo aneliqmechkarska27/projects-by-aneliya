@@ -1,0 +1,72 @@
+﻿@model IEnumerable<BeautyFromNature3.Domain.Catalog>
+
+@{
+    ViewData["Title"] = "Каталози";
+}
+
+<h1 class="text-center">КАТАЛОЗИ</h1>
+
+<p>
+    <a class="btn btn-outline-secondary backBtn" asp-action="Create">ДОБАВИ НОВ</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CatalogName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EditDate)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CatalogName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @if ((DateTime.Now - item.EditDate).Days != 0)
+                    {
+                        <p>@((DateTime.Now - item.EditDate).Days) дни</p>
+
+                    }
+                    else if ((DateTime.Now - item.EditDate).Hours != 0)
+                    {
+                        <p>@((DateTime.Now - item.EditDate).Hours) час</p>
+
+                    }
+                    else if ((DateTime.Now - item.EditDate).Minutes != 0)
+                    {
+                        <p>@((DateTime.Now - item.EditDate).Minutes) мин.</p>
+
+                    }
+                    else if ((DateTime.Now - item.EditDate).Seconds != 0)
+                    {
+                        <p>Преди няколко сек.</p>
+
+                    }
+                    else if ((DateTime.Now - item.EditDate).Milliseconds != 0)
+                    {
+                        <p>1 cек.</p>
+                    }
+                </td>
+                <td>
+
+                    <a  class="btn btn-outline-light" asp-action="Edit" asp-route-id="@item.CatalogId"><img src="~/Images/editIcon.jpg" width="25" /></a>
+                    <a  class="btn btn-outline-light" asp-action="Details" asp-route-id="@item.CatalogId"><img src="~/Images/detailsIcon.png" width="25" /></a>
+                    <a  class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.CatalogId"> <img src="~/Images/deleteIcon.png" width="25" /></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

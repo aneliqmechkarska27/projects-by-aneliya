@@ -1,0 +1,70 @@
+﻿@model BeautyFromNature3.Domain.Company
+
+@{
+    ViewData["Title"] = "Изтриване";
+}
+
+<h1>Изтриване на компанията</h1>
+
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div>
+            <a class="btn btn-outline-light" asp-action="Index"><img src="~/Images/goBackBtn.png" width="25" /></a>
+            <button type="button" class="btn btn-outline-danger col-md-1" data-toggle="modal" data-target="#DeleteCompany">
+                <img src="~/Images/deleteIcon.png" width="25" />
+            </button>
+
+            <!-- Modal -->
+            <div id="DeleteCompany" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal header-->
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="delete-question"> Сигурни ли сте, че искате да я изтриете?</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body-->
+                        <div class="modal-body">
+                            <p>Компанията "<strong>@Model.Name </strong>" ще бъде перманентно изтрита.</p>
+                        </div>
+
+                        <!-- Modal footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Затвори</button>
+                            <form asp-action="Delete">
+                                <input type="submit" value="Изтрий" class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.CompanyId" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>

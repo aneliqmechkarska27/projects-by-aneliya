@@ -1,0 +1,31 @@
+﻿@model BeautyFromNature3.Domain.Product
+
+@{
+    ViewData["Title"] = "Детайли";
+}
+
+
+@*Информация за продуктите*@
+<div id="grid-cont-details" class="grid-container">
+    <div class="grid-item" id="grid-item-details">
+        <img src="~/Images/@Model.Image" alt="Not Available" id="image-details" />
+        <div class="grid-item" id="company-details">
+            <p><strong>Компания:</strong> @Model.Company.Name</p>
+        </div>
+    </div>
+
+    <div class="grid-item" id="details-product-name">
+        <h2><bold>@Model.Title</bold></h2>
+    </div>
+
+    <div class="grid-item">
+        <p id="details-description">
+            @Model.Description
+        </p>
+    </div>
+</div>
+
+<div>
+
+    <a class="btn btn-outline-light" asp-action="Index"><img src="~/Images/goBackBtn.png" width="25" /></a>
+</div>
